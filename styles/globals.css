@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --FFPRIMARY: "PP Neue Montreal";
+  --BGCOLOR: #000;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, main {
+  width: 100vw;
+  background-color: var(--BGCOLOR);
+  overflow-x: hidden;
+  font-family: var(--FFPRIMARY);
+}
+
+.clipper-left {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 50vw;
+  background-color: #fff;
+  overflow: clip;
+  clip-path: inset(0 0 0 0);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+.loader-text {
+  width: max-content;
+  height: 100%;
+  padding: 4em;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.clipper-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50vw;
+  background-color: #fff;
+  overflow: clip;
+  clip-path: inset(0 0 0 0);
+  display: flex;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+.pre-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background-color: #fff;
+}
+
+.loader-wrapper {
+  position: relative;
+  width: 2px;
+  height: 140px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.loader {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0f0f;
+}
+
+nav,
+footer {
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+footer {
+  bottom: 0;
+}
+
+#hero {
+  background-image: url("../public/assets/img/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#labels {
+  min-height: 100vh;
+}
+
+.mask {
+  overflow: hidden;
+}
+
+.nav-link {
+  cursor: pointer;
+  z-index: 5;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(48px, 9vw, 160px);
+  font-weight: 700;
+  letter-spacing: 8px;
+  color: #fff;
+  text-transform: uppercase;
+}

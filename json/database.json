@@ -1,0 +1,130 @@
+{
+  "labels": [
+    {
+      "id": "expertsOnly",
+      "name": "Experts Only",
+      "url": "https://www.tstack.app/expertsonly",
+      "description": "Founded by John Summit",
+      "genres": ["house", "tech house", "techno", "bass house"],
+      "submissionMethod": "Trackstack",
+      "contactInfo": {
+        "email": "promos@offthegridrecs.com",
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/expertsonly_recs/",
+          "twitter": "https://twitter.com/expertsonly",
+          "youtube": "https://www.youtube.com/@expertsonly"
+        }
+      },
+      "location": null,
+      "img": "public/assets/img/ExpertsOnly.png",
+      "featuredArtists": ["John Summit", "Mau P", "Max Styler", "ODD MOB"],
+      "acceptingStatus": true
+    },
+    {
+      "id": "catchAndRelease",
+      "name": "Catch And Release",
+      "url": "https://www.tstack.app/catchandrelease",
+      "description": "Founded by FISHER",
+      "genres": ["house", "tech house"],
+      "submissionMethod": "Trackstack",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/catchandreleasemusic/",
+          "twitter": "https://twitter.com/CatchNRelease__",
+          "youtube": null
+        }
+      },
+      "location": null,
+      "img": "public/assets/img/CatchAndRelease.jpeg",
+      "featuredArtists": ["FISHER", "CID", "Vintage Culture"],
+      "acceptingStatus": true
+    },
+    {
+      "id": "blackBook",
+      "name": "Black Book Records",
+      "url": "https://www.tstack.app/blackbookrecords",
+      "description": "Founded by Chris Lake",
+      "genres": ["house", "tech house", "minimal house"],
+      "submissionMethod": "Trackstack",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/blackbookrecords/",
+          "twitter": "https://twitter.com/blackbookrecs",
+          "youtube": "https://www.youtube.com/@blackbookrecs"
+        }
+      },
+      "location": null,
+      "img": "public/assets/img/BlackBook.jpeg",
+      "featuredArtists": ["Chris Lake", "Chris Lorenzo", "TOBEHONEST"],
+      "acceptingStatus": true
+    },
+    {
+      "id": "hellbent",
+      "name": "Hellbent Records",
+      "url": "demos@hellbentrecs.com",
+      "description": "Founded by Cloone",
+      "genres": ["house", "latin house", "tribal house", "minimal house"],
+      "submissionMethod": "email",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/hellbentrecs/",
+          "twitter": "https://twitter.com/hellbentrecs",
+          "youtube": "https://www.youtube.com/@hellbentrecs"
+        }
+      },
+      "location": null,
+      "img": "public/assets/img/Hellbent.jpeg",
+      "featuredArtists": ["Cloone", "BeMore"],
+      "acceptingStatus": true
+    },
+    {
+      "id": "solidGrooves",
+      "name": "Solid Grooves",
+      "url": "https://www.tstack.app/solidgrooves",
+      "description": "Founded by Michael Bibi",
+      "genres": ["house", "latin house", "tribal house", "minimal house"],
+      "submissionMethod": "Trackstack",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/solidgroovesuk/",
+          "twitter": "https://twitter.com/SolidGrooves_",
+          "youtube": "https://www.youtube.com/@SolidGroovesRecords"
+        }
+      },
+      "location": null,
+      "img": "public/assets/img/SolidGrooves.jpeg",
+      "featuredArtists": ["Michael Bibi", "Dennis Cruz", "PAWSA"],
+      "acceptingStatus": true
+    },
+    {
+      "id": "repopulateMars",
+      "name": "Repopulate Mars",
+      "url": "demos@repopulatemars.com",
+      "description": "Led by Lee Foss",
+      "genres": [
+        "house",
+        "tech house",
+        "melodic house",
+        "bass house",
+        "vocal house"
+      ],
+      "submissionMethod": "email",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/repopulatemars/",
+          "twitter": "https://twitter.com/RepopulateMars",
+          "youtube": "https://www.youtube.com/@RepopulateMars"
+        }
+      },
+      "location": null,
+      "img": "public/assets/img/RepopulateMars.jpeg",
+      "featuredArtists": ["Lee Foss", "John Summit", "CID", "Deeper Purpose"],
+      "acceptingStatus": true
+    }
+  ]
+}
