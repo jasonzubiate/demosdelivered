@@ -1,32 +1,12 @@
 {
   "labels": [
     {
-      "id": "expertsOnly",
-      "name": "Experts Only",
-      "url": "https://www.tstack.app/expertsonly",
-      "description": "Founded by John Summit",
-      "genres": ["house", "tech house", "techno", "bass house"],
-      "submissionMethod": "Trackstack",
-      "contactInfo": {
-        "email": "promos@offthegridrecs.com",
-        "socialMedia": {
-          "instagram": "https://www.instagram.com/expertsonly_recs/",
-          "twitter": "https://twitter.com/expertsonly",
-          "youtube": "https://www.youtube.com/@expertsonly"
-        }
-      },
-      "location": null,
-      "img": "public/assets/img/ExpertsOnly.png",
-      "featuredArtists": ["John Summit", "Mau P", "Max Styler", "ODD MOB"],
-      "acceptingStatus": true
-    },
-    {
       "id": "catchAndRelease",
       "name": "Catch And Release",
       "url": "https://www.tstack.app/catchandrelease",
       "description": "Founded by FISHER",
       "genres": ["house", "tech house"],
-      "submissionMethod": "Trackstack",
+      "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
         "socialMedia": {
@@ -36,17 +16,37 @@
         }
       },
       "location": null,
-      "img": "public/assets/img/CatchAndRelease.jpeg",
+      "img": "CatchAndRelease.jpeg",
       "featuredArtists": ["FISHER", "CID", "Vintage Culture"],
-      "acceptingStatus": true
+      "accepting": true
+    },
+    {
+      "id": "expertsOnly",
+      "name": "Experts Only",
+      "url": "https://www.tstack.app/expertsonly",
+      "description": "Founded by John Summit",
+      "genres": ["house", "tech house", "techno", "bass house"],
+      "submissionMethod": "trackstack",
+      "contactInfo": {
+        "email": "promos@offthegridrecs.com",
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/expertsonly_recs/",
+          "twitter": "https://twitter.com/expertsonly",
+          "youtube": "https://www.youtube.com/@expertsonly"
+        }
+      },
+      "location": null,
+      "img": "ExpertsOnly.jpeg",
+      "featuredArtists": ["John Summit", "Mau P", "Max Styler", "ODD MOB"],
+      "accepting": true
     },
     {
       "id": "blackBook",
-      "name": "Black Book Records",
+      "name": "Black Book",
       "url": "https://www.tstack.app/blackbookrecords",
       "description": "Founded by Chris Lake",
       "genres": ["house", "tech house", "minimal house"],
-      "submissionMethod": "Trackstack",
+      "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
         "socialMedia": {
@@ -56,13 +56,33 @@
         }
       },
       "location": null,
-      "img": "public/assets/img/BlackBook.jpeg",
+      "img": "BlackBook.jpeg",
       "featuredArtists": ["Chris Lake", "Chris Lorenzo", "TOBEHONEST"],
-      "acceptingStatus": true
+      "accepting": true
+    },
+    {
+      "id": "traceAmounts",
+      "name": "Trace Amounts",
+      "url": "https://tstack.app/traceamounts",
+      "description": "Founded by Westend",
+      "genres": ["house", "tech house", "minimal house", "ghetto house"],
+      "submissionMethod": "trackstack",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/traceamountsnyc/",
+          "twitter": null,
+          "youtube": null
+        }
+      },
+      "location": "New York, NY",
+      "img": "TraceAmounts.jpeg",
+      "featuredArtists": ["Westend"],
+      "accepting": true
     },
     {
       "id": "hellbent",
-      "name": "Hellbent Records",
+      "name": "Hellbent",
       "url": "demos@hellbentrecs.com",
       "description": "Founded by Cloone",
       "genres": ["house", "latin house", "tribal house", "minimal house"],
@@ -76,9 +96,9 @@
         }
       },
       "location": null,
-      "img": "public/assets/img/Hellbent.jpeg",
+      "img": "Hellbent.jpeg",
       "featuredArtists": ["Cloone", "BeMore"],
-      "acceptingStatus": true
+      "accepting": true
     },
     {
       "id": "solidGrooves",
@@ -86,7 +106,7 @@
       "url": "https://www.tstack.app/solidgrooves",
       "description": "Founded by Michael Bibi",
       "genres": ["house", "latin house", "tribal house", "minimal house"],
-      "submissionMethod": "Trackstack",
+      "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
         "socialMedia": {
@@ -96,22 +116,16 @@
         }
       },
       "location": null,
-      "img": "public/assets/img/SolidGrooves.jpeg",
+      "img": "SolidGrooves.jpeg",
       "featuredArtists": ["Michael Bibi", "Dennis Cruz", "PAWSA"],
-      "acceptingStatus": true
+      "accepting": true
     },
     {
       "id": "repopulateMars",
       "name": "Repopulate Mars",
       "url": "demos@repopulatemars.com",
       "description": "Led by Lee Foss",
-      "genres": [
-        "house",
-        "tech house",
-        "melodic house",
-        "bass house",
-        "vocal house"
-      ],
+      "genres": ["house", "tech house", "melodic house", "vocal house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": null,
@@ -122,9 +136,275 @@
         }
       },
       "location": null,
-      "img": "public/assets/img/RepopulateMars.jpeg",
+      "img": "RepopulateMars.jpeg",
       "featuredArtists": ["Lee Foss", "John Summit", "CID", "Deeper Purpose"],
-      "acceptingStatus": true
+      "accepting": true
+    },
+    {
+      "id": "techne",
+      "name": "TECHNE",
+      "url": "https://www.tstack.app/technerecords",
+      "description": "Founded by Noizu",
+      "genres": ["house", "tech house", "bass house"],
+      "submissionMethod": "trackstack",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/technerecords/",
+          "twitter": "https://twitter.com/TechneRecords",
+          "youtube": "https://www.youtube.com/@technerecords"
+        }
+      },
+      "location": "Los Angeles, CA",
+      "img": "Techne.jpeg",
+      "featuredArtists": ["Noizu", "Friend Within", "Ben Miller"],
+      "accepting": true
+    },
+    {
+      "id": "spinnin",
+      "name": "Spinnin' Deep",
+      "url": "https://spinninrecords.com/talentpool/track/upload/",
+      "description": "Sub-label of Spinnin' Records",
+      "genres": ["house", "deep house", "tech house", "future house"],
+      "submissionMethod": "talentpool",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/spinnindeep/",
+          "twitter": "https://twitter.com/SpinninRecords",
+          "youtube": "https://www.youtube.com/@spinnindeep"
+        }
+      },
+      "location": null,
+      "img": "SpinninDeep.jpeg",
+      "featuredArtists": ["Cumbiafrica", "CamelPhat", "Deeper Purpose"],
+      "accepting": true
+    },
+    {
+      "id": "solotoko",
+      "name": "Solotoko",
+      "url": "demos@solotoko.com",
+      "description": "Founded by Sonny Fodera",
+      "genres": ["house", "deep house", "melodic house", "tech house"],
+      "submissionMethod": "email",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/solotoko/",
+          "twitter": "https://twitter.com/solotoko_",
+          "youtube": null
+        }
+      },
+      "location": "London, UK",
+      "img": "Solotoko.jpeg",
+      "featuredArtists": ["Sonny Fodera", "Biscits", "CID", "Westend"],
+      "accepting": true
+    },
+    {
+      "id": "defected",
+      "name": "Defected",
+      "url": "https://defected.com/demos",
+      "description": "Founded by Simon Dunmore",
+      "genres": ["house", "tech house", "techno", "bass house"],
+      "submissionMethod": "custom",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/defectedrecords/",
+          "twitter": "https://twitter.com/DefectedRecords",
+          "youtube": "https://www.youtube.com/@DefectedMusic"
+        }
+      },
+      "location": "London, UK",
+      "img": "Defected.jpeg",
+      "featuredArtists": ["Bob Sinclar", "John Summit"],
+      "accepting": true
+    },
+    {
+      "id": "toolroom",
+      "name": "Toolroom Records",
+      "url": "https://toolroomrecords.com/demos/",
+      "description": "Founded by Mark Knight",
+      "genres": ["house", "tech-house", "tribal house"],
+      "submissionMethod": "custom",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/toolroomrecords/",
+          "twitter": "https://twitter.com/toolroomrecords",
+          "youtube": "https://www.youtube.com/@toolroomrecords"
+        }
+      },
+      "location": null,
+      "img": "Toolroom.jpeg",
+      "featuredArtists": ["Mark Knight", "Retna"],
+      "accepting": true
+    },
+    {
+      "id": "theHigherGround",
+      "name": "The Higher Ground",
+      "url": null,
+      "description": "Founded by Diplo",
+      "genres": ["house", "tech house", "deep house"],
+      "submissionMethod": null,
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/thehigherground/",
+          "twitter": "https://twitter.com/thehigherground",
+          "youtube": "https://www.youtube.com/channel/UC8m8nnD5fL7999_vk8rcVvg"
+        }
+      },
+      "location": null,
+      "img": "TheHigherGround.jpeg",
+      "featuredArtists": ["Diplo", "MK", "SIDEPIECE"],
+      "accepting": false
+    },
+    {
+      "id": "dirtyBird",
+      "name": "DirtyBird Records",
+      "url": "https://www.label-worx.com/demo/dirtybird",
+      "description": "Founded by Claude VonStroke",
+      "genres": [
+        "house",
+        "tech house",
+        "deep house",
+        "minimal house",
+        "ghettotech"
+      ],
+      "submissionMethod": "custom",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/dirtybirdrecords/",
+          "twitter": "https://twitter.com/Dirtybird",
+          "youtube": "https://www.youtube.com/@dirtybirdrecords"
+        }
+      },
+      "location": "San Francisco, CA",
+      "img": "DirtyBird.jpeg",
+      "featuredArtists": ["Claude VonStroke", "FISHER", "Kyle Watson"],
+      "accepting": true
+    },
+    {
+      "id": "thriveMusic",
+      "name": "Thrive Music",
+      "url": "demos@thrivemusic.com",
+      "description": "Founded by Ricardo Vinas",
+      "genres": ["house", "tech house", "bass house"],
+      "submissionMethod": "email",
+      "contactInfo": {
+        "email": "info@thrivemusic.com",
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/thrivemusic/",
+          "twitter": "https://twitter.com/thrivemusic",
+          "youtube": "https://www.youtube.com/@Thrivemusic"
+        }
+      },
+      "location": "Los Angeles, CA",
+      "img": "ThriveMusic.jpeg",
+      "featuredArtists": ["Acraze", "Wuki", "Biscits", "ODD MOB"],
+      "accepting": true
+    },
+    {
+      "id": "glasgowUnderground",
+      "name": "Glasgow Underground",
+      "url": "music@glasgowunderground.com",
+      "description": "Founded by Kevin McKay",
+      "genres": ["house", "disco house", "vocal house"],
+      "submissionMethod": "email",
+      "contactInfo": {
+        "email": "contact@glasgowunderground.com",
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/glasgowunderground/",
+          "twitter": null,
+          "youtube": "https://www.youtube.com/@glasgowunderground"
+        }
+      },
+      "location": "London, UK",
+      "img": "GlasgowUnderground.jpeg",
+      "featuredArtists": ["Westend", "Kevin McKay"],
+      "accepting": true
+    },
+    {
+      "id": "sinkOrSwim",
+      "name": "Sink or Swim",
+      "url": "https://www.tstack.app/sinkorswim",
+      "description": "Founded by Guz",
+      "genres": ["house", "tech house", "bass house"],
+      "submissionMethod": "trackstack",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/sinkorswimofficial/?hl=en",
+          "twitter": "https://twitter.com/Sinkorswimr",
+          "youtube": "https://www.youtube.com/@sinkorswimrec"
+        }
+      },
+      "location": null,
+      "img": "SinkOrSwim.jpeg",
+      "featuredArtists": ["Guz", "Kyle Watson", "San Pacho", "Thomas Newson"],
+      "accepting": true
+    },
+    {
+      "id": "terminalUnderground",
+      "name": "Terminal Underground",
+      "url": "https://t.co/TPoTcLa7X4",
+      "description": "Founded by Matroda",
+      "genres": ["house", "tech house", "bass house"],
+      "submissionMethod": "custom",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/terminalunderground/",
+          "twitter": "https://twitter.com/TerminalUNDRGRD",
+          "youtube": "https://www.youtube.com/@terminalunderground"
+        }
+      },
+      "location": null,
+      "img": "TerminalUnderground.jpeg",
+      "featuredArtists": ["Matroda", "San Pacho", "OMNOM"],
+      "accepting": true
+    },
+    {
+      "id": "adessoMusic",
+      "name": "Adesso Music",
+      "url": "geoff@adessomusicltd.com",
+      "description": "Founded by Junior Jack",
+      "genres": ["house", "latin house", "tribal house"],
+      "submissionMethod": "email",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/adessomusic/",
+          "twitter": "https://twitter.com/adesso_music",
+          "youtube": "https://www.youtube.com/channel/UCBKD3wlzPyrAGRZXrM3ML3w"
+        }
+      },
+      "location": null,
+      "img": "AdessoMusic.jpeg",
+      "featuredArtists": ["CASSIM", "Junior Jack"],
+      "accepting": true
+    },
+    {
+      "id": "xplodedMusic",
+      "name": "Xploded Music",
+      "url": "https://www.xploded.co.uk/submit-demo/",
+      "description": "Founded by Cris Nuttall and Matt Cadman",
+      "genres": ["house", "tech house", "ghetto house"],
+      "submissionMethod": "custom",
+      "contactInfo": {
+        "email": null,
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/xplodedmusic/",
+          "twitter": "https://twitter.com/xplodedmusic",
+          "youtube": "https://www.youtube.com/channel/UCERrNbOU_lPd7k0w2MJkLjQ"
+        }
+      },
+      "location": "England, UK",
+      "img": "XplodedMusic.jpeg",
+      "featuredArtists": ["Diplo", "Dom Dolla", "A-Track", "Dillon Francis"],
+      "accepting": true
     }
   ]
 }

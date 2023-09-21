@@ -1,0 +1,32 @@
+interface Label {
+  id: string;
+  name: string;
+  url: string | null;
+  description: string;
+  genres: string[];
+  submissionMethod: string | null;
+  contactInfo: ContactInfo;
+  location: string | null;
+  img: string;
+  featuredArtists: string[];
+  accepting: boolean;
+}
+
+interface ContactInfo {
+  email: string | null;
+  socialMedia: SocialMedia;
+}
+
+interface SocialMedia {
+  instagram: string | null;
+  twitter: string | null;
+  youtube: string | null;
+}
+
+export interface LabelsSliderProps {
+  labels: Label[]
+}
+
+export interface LabelCardProps {
+  label: Label
+}
