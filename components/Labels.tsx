@@ -56,7 +56,7 @@ export default function Labels() {
       </div>
       <ul className="labels-list mt-20 flex flex-col gap-4">
         {data.labels.map((label) => (
-          <LabelCard label={label} />
+          <LabelCard label={label} key={label.id} />
         ))}
       </ul>
     </section>
@@ -96,9 +96,7 @@ function LabelCard({ label }: LabelCardProps) {
       <div className="flex flex-col justify-between  w-full font-medium uppercase">
         <div className="flex justify-between w-full">
           <div className="flex flex-col gap-1">
-            <div className="text-5xl cursor-pointer">
-              {label.name}
-            </div>
+            <div className="text-5xl cursor-pointer">{label.name}</div>
             <div className="flex gap-2">
               <label htmlFor="label_description">({label.description})</label>|
               <label htmlFor="label_description">
@@ -119,7 +117,7 @@ function LabelCard({ label }: LabelCardProps) {
             {Object.entries(label.contactInfo.socialMedia)
               .filter(([name, href]) => href != null)
               .map(([name, href]) => (
-                <a className="text-[1rem]" href={href}>
+                <a className="text-[1rem]" href={href} key={name}>
                   {name}
                 </a>
               ))}
