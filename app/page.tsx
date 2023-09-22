@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Labels } from "@/components";
 import { gsap } from "gsap";

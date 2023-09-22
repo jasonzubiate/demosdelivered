@@ -1,4 +1,4 @@
-interface Label {
+export interface Label {
   id: string;
   name: string;
   url: string | null;
@@ -12,12 +12,12 @@ interface Label {
   accepting: boolean;
 }
 
-interface ContactInfo {
+export interface ContactInfo {
   email: string | null;
   socialMedia: SocialMedia;
 }
 
-interface SocialMedia {
+export interface SocialMedia {
   instagram: string | null;
   twitter: string | null;
   youtube: string | null;

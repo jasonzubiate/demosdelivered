@@ -52,7 +52,7 @@ function PageLoader({ children }: { children: React.ReactNode }) {
   });
 
   return (
-    <>
+    <div className="w-full">
       <div className="pre-loader block">
         <div className="loader-wrapper">
           <div className="loader"></div>
@@ -68,7 +68,7 @@ function PageLoader({ children }: { children: React.ReactNode }) {
       </div>
 
       {children}
-    </>
+    </div>
   );
 }
 
