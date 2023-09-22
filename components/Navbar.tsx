@@ -8,7 +8,8 @@ function Navbar() {
   useEffect(() => {
     gsap.from("#nav", {
       duration: 1,
-      y: -100,
+      yPercent: -100,
+      ease: "power4.inOut",
       delay: 3,
     });
   });
@@ -21,10 +22,9 @@ function Navbar() {
         }}
         className="nav-link"
       >
-        DemosDelivered
+        Demos Delivered
       </p>
-      <p>2023</p>
-      <p>EDM, &nbsp;House, &nbsp;Techno</p>
+      <p className="hidden md:block">EDM, &nbsp;House, &nbsp;Techno</p>
       <p className="nav-link">Labels</p>
     </nav>
   );

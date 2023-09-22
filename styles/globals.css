@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/../assets/fonts/Rajdhani/Rajdhani-SemiBold.otf");
+}
+
 :root {
-  --FFPRIMARY: "PP Neue Montreal";
-  --BLACK: #000;
+  --FFPRIMARY: "Helvetica Neue", "Helvetica";
+  --FFSECONDARY: "Rajdhani";
+  --BLACK: #0f0f0f;
   --WHITE: whitesmoke;
 }
 
@@ -15,32 +21,36 @@
   margin: 0;
   box-sizing: border-box;
 }
-html, body {
-  width: 100vw;
-}
-
 body,
 main {
   width: 100%;
-  background-color: var(--BLACK);
+  background-color: var(--WHITE);
+  color: var(--BLACK);
   overflow-x: hidden;
   font-family: var(--FFPRIMARY);
   scroll-behavior: smooth;
 }
-
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--BLACK);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+}
 .clipper-left {
   position: absolute;
   top: 0;
   height: 100vh;
   width: 50vw;
-  background-color: var(--WHITE);
+  background-color: var(--BLACK);
   overflow: clip;
   clip-path: inset(0 0 0 0);
   display: flex;
   justify-content: flex-end;
   z-index: 2;
 }
-
 .loader-text {
   width: max-content;
   height: 100%;
@@ -50,111 +60,100 @@ main {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
+  color: var(--WHITE);
 }
-
 .clipper-right {
   position: absolute;
   top: 0;
   right: 0;
   height: 100vh;
   width: 50vw;
-  background-color: var(--WHITE);
+  background-color: var(--BLACK);
   overflow: clip;
   clip-path: inset(0 0 0 0);
   display: flex;
   justify-content: flex-start;
   z-index: 2;
 }
-
 .pre-loader {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  background-color: var(--WHITE);
+  background-color: var(--BLACK);
 }
-
 .loader-wrapper {
   position: relative;
   width: 2px;
   height: 140px;
-  background-color: rgb(240, 240, 240);
+  background-color: var(--BLACK);
   border-radius: 2px;
   overflow: hidden;
 }
-
 .loader {
   position: absolute;
   top: 100%;
   width: 100%;
   height: 100%;
-  background-color: #0f0f0f;
+  background-color: var(--WHITE);
 }
-
 nav,
 footer {
   position: fixed;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   color: var(--WHITE);
   mix-blend-mode: difference;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   z-index: 1;
   text-transform: uppercase;
+  font-weight: 300;
 }
-
 footer {
   bottom: 0;
 }
-
 #hero {
   height: 100vh;
-}
-
-#hero video {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 3rem;
+  text-transform: uppercase;
 }
-
+.secondary-font {
+  font-family: var(--FFSECONDARY);
+}
 #labels {
   min-height: 100vh;
 }
-
 .mask {
   overflow: hidden;
 }
-
 .nav-link {
   cursor: pointer;
   z-index: 5;
 }
-
 h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: clamp(48px, 5vw, 140px);
+  font-size: clamp(1.5rem, 2.5vw, 3.5rem);
   font-weight: 700;
-  letter-spacing: 4px;
-  color: var(--WHITE);
+  color: var(--BLACK);
   text-transform: uppercase;
 }
-
 .label-card {
   display: flex;
   width: 100%;
   padding: 20px;
   gap: 24px;
-  border: #000 1px solid;
+  border: var(--BLACK) 1px solid;
+  color: var(--BLACK);
   cursor: pointer;
-  transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-
 .label-img {
   display: flex;
   justify-content: center;
@@ -165,12 +164,10 @@ h1 {
   min-width: 160px;
   height: 160px;
 }
-
 .link-arrow {
   width: 40px;
   height: 40px;
 }
-
 .status-dot {
   width: 12px;
   height: 12px;
@@ -178,8 +175,13 @@ h1 {
 }
 
 @media screen and (max-width: 1000px) {
-  nav, footer {
+  nav,
+  footer {
     padding: 1rem;
+    font-size: 12px;
+  }
+  #hero {
+    padding: 4rem 1rem;
   }
   .label-card {
     padding: 8px;

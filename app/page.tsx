@@ -2,12 +2,20 @@
 
 import { Labels } from "@/components";
 import { gsap } from "gsap";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { getRandomCharacter } from "@/utils/TextShuffle";
 
+import mouseIcon from "@/public/assets/mouse-minimal.png";
+import sideFrame from "@/public/assets/frame-side.png";
+import tlFrame from "@/public/assets/frame-tl.png";
+import blFrame from "@/public/assets/frame-bl.png";
+import trFrame from "@/public/assets/frame-tr.png";
+import brFrame from "@/public/assets/frame-br.png";
+
 export default function Home() {
   const h1Ref = useRef<HTMLHeadingElement | null>(null);
-  const originalText = "DemosDelivered";
+  const originalText = "Demos Delivered";
   const [scrollable, setScrollable] = useState(false);
 
   useEffect(() => {
@@ -15,9 +23,27 @@ export default function Home() {
       setScrollable(true);
     }, 3000);
 
-    gsap.from(h1Ref.current, {
+    gsap.from(".frame", {
       duration: 1,
-      scale: 0.8,
+      opacity: 0,
+      ease: "power4.inOut",
+      delay: 3,
+    });
+    gsap.from(".sub-header", {
+      duration: 1.5,
+      yPercent: 100,
+      ease: "power4.inOut",
+      delay: 3,
+    });
+    gsap.from(".hero-info", {
+      duration: 1.5,
+      opacity: 0,
+      ease: "power4.inOut",
+      delay: 4,
+    });
+    gsap.from(h1Ref.current, {
+      duration: 2,
+      scale: 3,
       ease: "power4.inOut",
       delay: 2,
     });
@@ -38,7 +64,7 @@ export default function Home() {
       if (h1Ref.current) {
         h1Ref.current.textContent = originalText;
       }
-    }, 3200);
+    }, 4000);
 
     // Start shuffling when the component mounts
     const shuffleInterval = setInterval(() => {
@@ -53,11 +79,72 @@ export default function Home() {
   return (
     <main className={`${scrollable ? "h-auto" : "h-screen"}`}>
       <section id="hero">
-        <video loop autoPlay>
-          <source src="/assets/video/videoBg.mp4" type="video/mp4" />
-          Your browser does not support the video tag
-        </video>
-        <h1 ref={h1Ref}>{originalText}</h1>
+        <div className="flex flex-col justify-between h-full">
+          <Image
+            className="frame"
+            src={tlFrame}
+            alt="frame"
+            width={24}
+            height={24}
+          />
+          <Image
+            className="frame"
+            src={sideFrame}
+            alt="frame"
+            width={1}
+            height={24}
+          />
+          <Image
+            className="frame"
+            src={blFrame}
+            alt="frame"
+            width={24}
+            height={24}
+          />
+        </div>
+        <div className="flex flex-col justify-around items-center h-full">
+          <p className="text-[16px] secondary-font hero-info">New Labels Added Weekly</p>
+          <div className="flex flex-col justify-center items-center gap-2 py-10">
+            <div className="mask">
+              <p className="text-[16px] secondary-font sub-header">
+                Submit your latest tracks
+              </p>
+            </div>
+            <h1 ref={h1Ref}>Demos Delivered</h1>
+            <div className="mask">
+              <p className="text-[16px] secondary-font sub-header">
+                To EDM'S hottest labels
+              </p>
+            </div>
+          </div>
+          <div className="hero-info flex gap-2">
+            <Image src={mouseIcon} width={24} height={24} alt="mouse" />
+            <p className="text-[16px] secondary-font">Scroll</p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-between items-end h-full">
+          <Image
+            className="frame"
+            src={trFrame}
+            alt="frame"
+            width={24}
+            height={24}
+          />
+          <Image
+            className="frame"
+            src={sideFrame}
+            alt="frame"
+            width={1}
+            height={24}
+          />
+          <Image
+            className="frame"
+            src={brFrame}
+            alt="frame"
+            width={24}
+            height={24}
+          />
+        </div>
       </section>
       <Labels />
     </main>

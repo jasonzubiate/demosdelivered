@@ -43,17 +43,17 @@ function LabelCard({ label }: LabelCardProps) {
       <div className="flex flex-col justify-between  w-full font-medium uppercase">
         <div className="flex justify-between w-full">
           <div className="flex flex-col gap-0 lg:gap-1">
-            <div className="text-lg cursor-pointer text-[16px] lg:text-5xl ">
+            <div className="text-lg cursor-pointer text-[16px] lg:text-4xl ">
               {label.name}
             </div>
-            <div className="flex flex-col gap-0 lg:gap-2 text-[10px] lg:text-[1rem] lg:flex-row">
-              <label htmlFor="label_description ">({label.description})</label>
+            <div className="secondary-font flex flex-col gap-0 lg:gap-2 text-[12px] lg:text-[1.25rem] lg:flex-row">
+              <label htmlFor="label_description">[ {label.description} ]</label>
               <span className="hidden lg:block">|</span>
               <label htmlFor="label_description">
-                ({label.genres.join(", ")})
+                [ {label.genres.join(", ")} ]
               </label>
               <label htmlFor="artists" className="lg:hidden">
-                (Artists: {label.featuredArtists.join(", ")})
+                [ Artists: {label.featuredArtists.join(", ")} ]
               </label>
             </div>
           </div>
@@ -65,7 +65,7 @@ function LabelCard({ label }: LabelCardProps) {
             />
           </div>
         </div>
-        <div className="flex justify-between w-full text-[10px] lg:text-[1rem]">
+        <div className="secondary-font flex justify-between w-full text-[12px] lg:text-[1.25rem]">
           <div className="flex justify-between gap-1 lg:gap-4 ">
             {Object.entries(label.contactInfo.socialMedia)
               .filter((href) => href != null)
@@ -76,7 +76,7 @@ function LabelCard({ label }: LabelCardProps) {
               ))}
           </div>
           <label htmlFor="artists" className="text=[1rem] hidden lg:block">
-            (Artists {label.featuredArtists.join(", ")})
+            [ Artists {label.featuredArtists.join(", ")} ]
           </label>
           <div className="flex items-center gap-1 lg:gap-2">
             <div
@@ -105,15 +105,15 @@ export default function Labels() {
   };
 
   useEffect(() => {
-    fetchLabels();
-    gsap.to("#labels", {
-      backgroundColor: "#f5f5f5",
-      duration: 1,
-      scrollTrigger: {
-        trigger: "#labels",
-        start: "top 80%",
-      },
-    });
+    // fetchLabels();
+    // gsap.to("#labels", {
+    //   backgroundColor: "#0F0F0F",
+    //   duration: 1,
+    //   scrollTrigger: {
+    //     trigger: "#labels",
+    //     start: "top 80%",
+    //   },
+    // });
     gsap.from(".labels-header", {
       duration: 1,
       yPercent: 100,
@@ -123,24 +123,24 @@ export default function Labels() {
         start: "top 80%",
       },
     });
-    gsap.from(".label-card", {
-      opacity: 0,
-      yPercent: 65,
-      stagger: 0.5,
-      scrollTrigger: {
-        trigger: "#labels",
-        start: "top 40%",
-        end: "bottom bottom",
-        scrub: true,
-        once: true,
-      },
-    });
+    // gsap.from(".label-card", {
+    //   opacity: 0,
+    //   yPercent: 65,
+    //   stagger: 0.5,
+    //   scrollTrigger: {
+    //     trigger: "#labels",
+    //     start: "top 40%",
+    //     end: "bottom bottom",
+    //     scrub: true,
+    //     once: true,
+    //   },
+    // });
   }, []);
 
   return (
     <section
       id="labels"
-      className="pt-20 lg:pt-[128px] pb-20 px-4 lg;px-5 font-bold overflow-hidden w-full"
+      className="pt-20 pb-20 px-[1rem] lg:px-[3rem] font-bold overflow-hidden w-full"
     >
       <div className="overflow-hidden">
         <h2 className="labels-header text-[20px] font-medium uppercase lg:text-5xl ">

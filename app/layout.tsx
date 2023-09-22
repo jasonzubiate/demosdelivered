@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import { Navbar, Footer } from "@/components";
 import type { Metadata } from "next";
 import LenisContext from "@/context/LenisContext";
-import { PageLoader } from "@/components";
+import { PageLoader, CursorDot } from "@/components";
 
 export const metadata: Metadata = {
   title: "Demos Delivered",
@@ -20,6 +20,7 @@ export default function RootLayout({
         <body>
           <PageLoader>
             <Navbar />
+            <CursorDot/>
             {children}
             <Footer />
           </PageLoader>
