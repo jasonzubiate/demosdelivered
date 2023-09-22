@@ -113,7 +113,7 @@ export default function Home() {
             <h1 ref={h1Ref}>Demos Delivered</h1>
             <div className="mask">
               <p className="text-[16px] secondary-font sub-header">
-                To EDM'S hottest labels
+                To EDM&apos;S hottest labels
               </p>
             </div>
           </div>
