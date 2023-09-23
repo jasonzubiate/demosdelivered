@@ -34,7 +34,7 @@ function LabelCard({ label }: LabelCardProps) {
     <li className="label-card" onClick={redirectToLabel}>
       <div className="label-img">
         <Image
-          src={`/../assets/img/${label.img}`}
+          src={`/assets/img/${label.img}`}
           alt={label.name}
           fill
           priority

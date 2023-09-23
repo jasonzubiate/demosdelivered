@@ -103,7 +103,7 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col justify-around items-center h-full">
-          <p className="text-[16px] secondary-font hero-info">New Labels Added Weekly</p>
+          <p className="text-[16px] secondary-font-regular hero-info">New Labels Added Weekly</p>
           <div className="flex flex-col justify-center items-center gap-2 py-10">
             <div className="mask">
               <p className="text-[16px] secondary-font-regular sub-header">
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
           <div className="hero-info flex gap-2">
             <Image src={mouseIcon} width={24} height={24} alt="mouse" />
-            <p className="text-[16px] secondary-font">Scroll</p>
+            <p className="text-[16px] secondary-font-regular">Scroll</p>
           </div>
         </div>
         <div className="flex flex-col justify-between items-end h-full">

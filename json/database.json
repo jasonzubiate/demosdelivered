@@ -16,7 +16,7 @@
         }
       },
       "location": null,
-      "img": "CatchAndRelease.png",
+      "img": "catchandrelease.png",
       "featuredArtists": ["FISHER", "CID", "Vintage Culture"],
       "accepting": true
     },
@@ -36,7 +36,7 @@
         }
       },
       "location": null,
-      "img": "ExpertsOnly.png",
+      "img": "expertsonly.png",
       "featuredArtists": ["John Summit", "Mau P", "Max Styler", "ODD MOB"],
       "accepting": true
     },
@@ -56,7 +56,7 @@
         }
       },
       "location": null,
-      "img": "BlackBook.png",
+      "img": "blackbook.png",
       "featuredArtists": ["Chris Lake", "Chris Lorenzo", "TOBEHONEST"],
       "accepting": true
     },
@@ -76,7 +76,7 @@
         }
       },
       "location": "New York, NY",
-      "img": "TraceAmounts.png",
+      "img": "traceamounts.png",
       "featuredArtists": ["Westend"],
       "accepting": true
     },
@@ -96,7 +96,7 @@
         }
       },
       "location": null,
-      "img": "Hellbent.png",
+      "img": "hellbent.png",
       "featuredArtists": ["Cloone", "BeMore"],
       "accepting": true
     },
@@ -116,7 +116,7 @@
         }
       },
       "location": null,
-      "img": "SolidGrooves.png",
+      "img": "solidgrooves.png",
       "featuredArtists": ["Michael Bibi", "Dennis Cruz", "PAWSA"],
       "accepting": true
     },
@@ -136,7 +136,7 @@
         }
       },
       "location": null,
-      "img": "RepopulateMars.png",
+      "img": "repopulatemars.png",
       "featuredArtists": ["Lee Foss", "John Summit", "CID", "Deeper Purpose"],
       "accepting": true
     },
@@ -156,7 +156,7 @@
         }
       },
       "location": "Los Angeles, CA",
-      "img": "Techne.png",
+      "img": "techne.png",
       "featuredArtists": ["Noizu", "Friend Within", "Ben Miller"],
       "accepting": true
     },
@@ -176,7 +176,7 @@
         }
       },
       "location": null,
-      "img": "SpinninDeep.png",
+      "img": "spinnindeep.png",
       "featuredArtists": ["Cumbiafrica", "CamelPhat", "Deeper Purpose"],
       "accepting": true
     },
@@ -196,7 +196,7 @@
         }
       },
       "location": "London, UK",
-      "img": "Solotoko.png",
+      "img": "solotoko.png",
       "featuredArtists": ["Sonny Fodera", "Biscits", "CID", "Westend"],
       "accepting": true
     },
@@ -216,7 +216,7 @@
         }
       },
       "location": "London, UK",
-      "img": "Defected.png",
+      "img": "defected.png",
       "featuredArtists": ["Bob Sinclar", "John Summit"],
       "accepting": true
     },
@@ -236,7 +236,7 @@
         }
       },
       "location": null,
-      "img": "Toolroom.png",
+      "img": "toolroom.png",
       "featuredArtists": ["Mark Knight", "Retna"],
       "accepting": true
     },
@@ -256,7 +256,7 @@
         }
       },
       "location": null,
-      "img": "TheHigherGround.png",
+      "img": "thehigherground.png",
       "featuredArtists": ["Diplo", "MK", "SIDEPIECE"],
       "accepting": false
     },
@@ -281,7 +281,7 @@
         }
       },
       "location": "San Francisco, CA",
-      "img": "DirtyBird.png",
+      "img": "dirtybird.png",
       "featuredArtists": ["Claude VonStroke", "FISHER", "Kyle Watson"],
       "accepting": true
     },
@@ -301,7 +301,7 @@
         }
       },
       "location": "Los Angeles, CA",
-      "img": "ThriveMusic.png",
+      "img": "thrivemusic.png",
       "featuredArtists": ["Acraze", "Wuki", "Biscits", "ODD MOB"],
       "accepting": true
     },
@@ -321,7 +321,7 @@
         }
       },
       "location": "London, UK",
-      "img": "GlasgowUnderground.png",
+      "img": "glasgowunderground.png",
       "featuredArtists": ["Westend", "Kevin McKay"],
       "accepting": true
     },
@@ -341,7 +341,7 @@
         }
       },
       "location": null,
-      "img": "SinkOrSwim.png",
+      "img": "sinkorswim.png",
       "featuredArtists": ["Guz", "Kyle Watson", "San Pacho", "Thomas Newson"],
       "accepting": true
     },
@@ -361,7 +361,7 @@
         }
       },
       "location": null,
-      "img": "TerminalUnderground.png",
+      "img": "terminalunderground.png",
       "featuredArtists": ["Matroda", "San Pacho", "OMNOM"],
       "accepting": true
     },
@@ -381,7 +381,7 @@
         }
       },
       "location": null,
-      "img": "AdessoMusic.png",
+      "img": "adessomusic.png",
       "featuredArtists": ["CASSIM", "Junior Jack"],
       "accepting": true
     },
@@ -401,7 +401,7 @@
         }
       },
       "location": "England, UK",
-      "img": "XplodedMusic.png",
+      "img": "xplodedmusic.png",
       "featuredArtists": ["Diplo", "Dom Dolla", "A-Track", "Dillon Francis"],
       "accepting": true
     }

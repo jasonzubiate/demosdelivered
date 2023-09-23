@@ -24,7 +24,7 @@ function Navbar() {
       >
         Demos Delivered
       </p>
-      <p className="hidden md:block">[ EDM, &nbsp;House, &nbsp;Techno ]</p>
+      <p>[ EDM, &nbsp;House, &nbsp;Techno ]</p>
     </nav>
   );
 }
