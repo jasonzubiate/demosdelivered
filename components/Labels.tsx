@@ -46,7 +46,7 @@ function LabelCard({ label }: LabelCardProps) {
             <div className="text-lg cursor-pointer font-normal text-[14px] lg:text-4xl ">
               {label.name}
             </div>
-            <div className="secondary-font flex flex-col gap-0 lg:gap-2 text-[12px] font-thin lg:text-[1.25rem] lg:flex-row">
+            <div className="secondary-font-light flex flex-col gap-0 lg:gap-2 text-[12px] font-thin lg:text-[1.25rem] lg:flex-row">
               <label htmlFor="label_description">{label.description}</label>
               <span className="hidden lg:block">|</span>
               <label htmlFor="label_description">
@@ -62,7 +62,7 @@ function LabelCard({ label }: LabelCardProps) {
             />
           </div>
         </div>
-        <div className="secondary-font font-thin flex justify-between w-full text-[12px] lg:text-[1.25rem]">
+        <div className="secondary-font-light font-thin flex justify-between w-full text-[12px] lg:text-[1.25rem]">
           <div className="flex justify-between gap-1 lg:gap-4 ">
             {Object.entries(label.contactInfo.socialMedia)
               .filter((href) => href != null)
@@ -137,7 +137,7 @@ export default function Labels() {
   return (
     <section
       id="labels"
-      className="mb-10 lg:mb-20 px-[.5rem] lg:px-[3rem] font-bold overflow-hidden w-full"
+      className="mb-10 lg:mb-20 px-[1rem] lg:px-[3rem] font-bold overflow-hidden w-full"
     >
       <div className="overflow-hidden">
         <h2 className="labels-header text-[20px] font-medium uppercase lg:text-5xl ">

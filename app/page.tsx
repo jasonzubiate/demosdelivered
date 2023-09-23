@@ -106,13 +106,13 @@ export default function Home() {
           <p className="text-[16px] secondary-font hero-info">New Labels Added Weekly</p>
           <div className="flex flex-col justify-center items-center gap-2 py-10">
             <div className="mask">
-              <p className="text-[16px] secondary-font sub-header">
+              <p className="text-[16px] secondary-font-regular sub-header">
                 Submit your latest tracks
               </p>
             </div>
             <h1 ref={h1Ref}>Demos Delivered</h1>
             <div className="mask">
-              <p className="text-[16px] secondary-font sub-header">
+              <p className="text-[16px] secondary-font-regular sub-header">
                 To EDM&apos;S hottest labels
               </p>
             </div>
