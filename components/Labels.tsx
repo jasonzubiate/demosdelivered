@@ -137,7 +137,7 @@ export default function Labels() {
   return (
     <section
       id="labels"
-      className="mb-10 lg:mb-20 px-[1rem] lg:px-[3rem] font-bold overflow-hidden w-full"
+      className="mb-14 lg:mb-20 px-[1rem] lg:px-[3rem] font-bold overflow-hidden w-full"
     >
       <div className="overflow-hidden">
         <h2 className="labels-header text-[20px] font-medium uppercase lg:text-5xl ">
