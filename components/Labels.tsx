@@ -43,17 +43,14 @@ function LabelCard({ label }: LabelCardProps) {
       <div className="flex flex-col justify-between  w-full font-medium uppercase">
         <div className="flex justify-between w-full">
           <div className="flex flex-col gap-0 lg:gap-1">
-            <div className="text-lg cursor-pointer text-[16px] lg:text-4xl ">
+            <div className="text-lg cursor-pointer font-normal text-[14px] lg:text-4xl ">
               {label.name}
             </div>
-            <div className="secondary-font flex flex-col gap-0 lg:gap-2 text-[12px] lg:text-[1.25rem] lg:flex-row">
-              <label htmlFor="label_description">[ {label.description} ]</label>
+            <div className="secondary-font flex flex-col gap-0 lg:gap-2 text-[12px] font-thin lg:text-[1.25rem] lg:flex-row">
+              <label htmlFor="label_description">{label.description}</label>
               <span className="hidden lg:block">|</span>
               <label htmlFor="label_description">
-                [ {label.genres.join(", ")} ]
-              </label>
-              <label htmlFor="artists" className="lg:hidden">
-                [ Artists: {label.featuredArtists.join(", ")} ]
+                {label.genres.join(", ")}
               </label>
             </div>
           </div>
@@ -65,19 +62,19 @@ function LabelCard({ label }: LabelCardProps) {
             />
           </div>
         </div>
-        <div className="secondary-font flex justify-between w-full text-[12px] lg:text-[1.25rem]">
+        <div className="secondary-font font-thin flex justify-between w-full text-[12px] lg:text-[1.25rem]">
           <div className="flex justify-between gap-1 lg:gap-4 ">
             {Object.entries(label.contactInfo.socialMedia)
               .filter((href) => href != null)
               .map(([name, href]) => (
-                <a href={href} key={name}>
+                <a className="hover-link" href={href} key={name}>
                   {name}
                 </a>
               ))}
           </div>
-          <label htmlFor="artists" className="text=[1rem] hidden lg:block">
-            [ Artists {label.featuredArtists.join(", ")} ]
-          </label>
+          {/* <label htmlFor="artists" className="text=[1rem] hidden lg:block">
+            [ Artists: {label.featuredArtists.join(", ")} ]
+          </label> */}
           <div className="flex items-center gap-1 lg:gap-2">
             <div
               className={`status-dot ${
@@ -140,7 +137,7 @@ export default function Labels() {
   return (
     <section
       id="labels"
-      className="pt-20 pb-20 px-[1rem] lg:px-[3rem] font-bold overflow-hidden w-full"
+      className="mb-10 lg:mb-20 px-[.5rem] lg:px-[3rem] font-bold overflow-hidden w-full"
     >
       <div className="overflow-hidden">
         <h2 className="labels-header text-[20px] font-medium uppercase lg:text-5xl ">

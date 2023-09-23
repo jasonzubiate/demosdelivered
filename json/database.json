@@ -5,7 +5,7 @@
       "name": "Catch And Release",
       "url": "https://www.tstack.app/catchandrelease",
       "description": "Founded by FISHER",
-      "genres": ["house", "tech house"],
+      "genres": ["tech house"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
@@ -25,7 +25,7 @@
       "name": "Experts Only",
       "url": "https://www.tstack.app/expertsonly",
       "description": "Founded by John Summit",
-      "genres": ["house", "tech house", "techno", "bass house"],
+      "genres": ["tech house", "techno"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": "promos@offthegridrecs.com",
@@ -45,7 +45,7 @@
       "name": "Black Book",
       "url": "https://www.tstack.app/blackbookrecords",
       "description": "Founded by Chris Lake",
-      "genres": ["house", "tech house", "minimal house"],
+      "genres": ["tech house", "minimal house"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
@@ -65,7 +65,7 @@
       "name": "Trace Amounts",
       "url": "https://tstack.app/traceamounts",
       "description": "Founded by Westend",
-      "genres": ["house", "tech house", "minimal house", "ghetto house"],
+      "genres": ["tech house", "minimal house", "ghetto house"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
@@ -85,7 +85,7 @@
       "name": "Hellbent",
       "url": "demos@hellbentrecs.com",
       "description": "Founded by Cloone",
-      "genres": ["house", "latin house", "tribal house", "minimal house"],
+      "genres": ["latin house", "tribal house", "minimal house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": null,
@@ -105,7 +105,7 @@
       "name": "Solid Grooves",
       "url": "https://www.tstack.app/solidgrooves",
       "description": "Founded by Michael Bibi",
-      "genres": ["house", "latin house", "tribal house", "minimal house"],
+      "genres": ["latin house", "tribal house", "minimal house"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
@@ -125,7 +125,7 @@
       "name": "Repopulate Mars",
       "url": "demos@repopulatemars.com",
       "description": "Led by Lee Foss",
-      "genres": ["house", "tech house", "melodic house", "vocal house"],
+      "genres": ["tech house", "melodic house", "vocal house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": null,
@@ -145,7 +145,7 @@
       "name": "TECHNE",
       "url": "https://www.tstack.app/technerecords",
       "description": "Founded by Noizu",
-      "genres": ["house", "tech house", "bass house"],
+      "genres": ["tech house"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
@@ -165,7 +165,7 @@
       "name": "Spinnin' Deep",
       "url": "https://spinninrecords.com/talentpool/track/upload/",
       "description": "Sub-label of Spinnin' Records",
-      "genres": ["house", "deep house", "tech house", "future house"],
+      "genres": ["deep house", "tech house", "vocal house"],
       "submissionMethod": "talentpool",
       "contactInfo": {
         "email": null,
@@ -185,7 +185,7 @@
       "name": "Solotoko",
       "url": "demos@solotoko.com",
       "description": "Founded by Sonny Fodera",
-      "genres": ["house", "deep house", "melodic house", "tech house"],
+      "genres": ["deep house", "melodic house", "tech house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": null,
@@ -205,7 +205,7 @@
       "name": "Defected",
       "url": "https://defected.com/demos",
       "description": "Founded by Simon Dunmore",
-      "genres": ["house", "tech house", "techno", "bass house"],
+      "genres": ["tech house", "techno", "bass house"],
       "submissionMethod": "custom",
       "contactInfo": {
         "email": null,
@@ -225,7 +225,7 @@
       "name": "Toolroom Records",
       "url": "https://toolroomrecords.com/demos/",
       "description": "Founded by Mark Knight",
-      "genres": ["house", "tech-house", "tribal house"],
+      "genres": ["tech house", "tribal house"],
       "submissionMethod": "custom",
       "contactInfo": {
         "email": null,
@@ -245,7 +245,7 @@
       "name": "The Higher Ground",
       "url": null,
       "description": "Founded by Diplo",
-      "genres": ["house", "tech house", "deep house"],
+      "genres": ["tech house", "deep house"],
       "submissionMethod": null,
       "contactInfo": {
         "email": null,
@@ -266,11 +266,10 @@
       "url": "https://www.label-worx.com/demo/dirtybird",
       "description": "Founded by Claude VonStroke",
       "genres": [
-        "house",
-        "tech house",
+                "tech house",
         "deep house",
-        "minimal house",
-        "ghettotech"
+        "minimal house"
+        
       ],
       "submissionMethod": "custom",
       "contactInfo": {
@@ -291,7 +290,7 @@
       "name": "Thrive Music",
       "url": "demos@thrivemusic.com",
       "description": "Founded by Ricardo Vinas",
-      "genres": ["house", "tech house", "bass house"],
+      "genres": ["tech house", "vocal house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": "info@thrivemusic.com",
@@ -311,7 +310,7 @@
       "name": "Glasgow Underground",
       "url": "music@glasgowunderground.com",
       "description": "Founded by Kevin McKay",
-      "genres": ["house", "disco house", "vocal house"],
+      "genres": ["disco house", "vocal house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": "contact@glasgowunderground.com",
@@ -331,7 +330,7 @@
       "name": "Sink or Swim",
       "url": "https://www.tstack.app/sinkorswim",
       "description": "Founded by Guz",
-      "genres": ["house", "tech house", "bass house"],
+      "genres": ["tech house"],
       "submissionMethod": "trackstack",
       "contactInfo": {
         "email": null,
@@ -351,7 +350,7 @@
       "name": "Terminal Underground",
       "url": "https://t.co/TPoTcLa7X4",
       "description": "Founded by Matroda",
-      "genres": ["house", "tech house", "bass house"],
+      "genres": ["tech house"],
       "submissionMethod": "custom",
       "contactInfo": {
         "email": null,
@@ -371,7 +370,7 @@
       "name": "Adesso Music",
       "url": "geoff@adessomusicltd.com",
       "description": "Founded by Junior Jack",
-      "genres": ["house", "latin house", "tribal house"],
+      "genres": ["latin house", "tribal house"],
       "submissionMethod": "email",
       "contactInfo": {
         "email": null,
@@ -391,7 +390,7 @@
       "name": "Xploded Music",
       "url": "https://www.xploded.co.uk/submit-demo/",
       "description": "Founded by Cris Nuttall and Matt Cadman",
-      "genres": ["house", "tech house", "ghetto house"],
+      "genres": ["tech house", "ghetto house"],
       "submissionMethod": "custom",
       "contactInfo": {
         "email": null,
