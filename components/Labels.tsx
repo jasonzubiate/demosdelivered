@@ -34,7 +34,7 @@ function LabelCard({ label }: LabelCardProps) {
     <li className="label-card" onClick={redirectToLabel}>
       <div className="label-img">
         <Image
-          src={`/assets/img/${label.img}`}
+          src={`${label.img}`}
           alt={label.name}
           fill
           priority
@@ -111,22 +111,22 @@ export default function Labels() {
     //     start: "top 80%",
     //   },
     // });
-    gsap.from(".labels-header", {
-      duration: 1,
-      yPercent: 100,
-      ease: "power2.inOut",
-      scrollTrigger: {
-        trigger: "#labels",
-        start: "top 80%",
-      },
-    });
+    // gsap.from(".labels-header", {
+    //   duration: 1,
+    //   yPercent: 100,
+    //   ease: "power2.inOut",
+    //   scrollTrigger: {
+    //     trigger: "#labels",
+    //     start: "top 80%",
+    //   },
+    // });
     // gsap.from(".label-card", {
     //   opacity: 0,
     //   yPercent: 65,
     //   stagger: 0.5,
     //   scrollTrigger: {
     //     trigger: "#labels",
-    //     start: "top 40%",
+    //     start: "top center",
     //     end: "bottom bottom",
     //     scrub: true,
     //     once: true,
@@ -137,7 +137,7 @@ export default function Labels() {
   return (
     <section
       id="labels"
-      className="mb-14 lg:mb-20 px-[1rem] lg:px-[3rem] font-bold overflow-hidden w-full"
+      className="mb-14 lg:mb-20 px-[1rem] lg:px-[3rem] overflow-hidden"
     >
       <div className="overflow-hidden">
         <h2 className="labels-header text-[20px] font-medium uppercase lg:text-5xl ">

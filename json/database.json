@@ -16,7 +16,7 @@
         }
       },
       "location": null,
-      "img": "catchandrelease.png",
+      "img": "https://label-engine.com/news/wp-content/uploads/2022/12/291827798_404777518339124_1544816416583399739_n.jpg",
       "featuredArtists": ["FISHER", "CID", "Vintage Culture"],
       "accepting": true
     },
@@ -36,7 +36,7 @@
         }
       },
       "location": null,
-      "img": "expertsonly.png",
+      "img": "https://d2tccurk3pc1sk.cloudfront.net/images/expertsonly.png",
       "featuredArtists": ["John Summit", "Mau P", "Max Styler", "ODD MOB"],
       "accepting": true
     },
@@ -56,7 +56,7 @@
         }
       },
       "location": null,
-      "img": "blackbook.png",
+      "img": "https://yt3.googleusercontent.com/_KMfFOe5-bv9zuSosbL4nTetJ12l3LzZ2kjsappavAosR883Udl7DsQB1WgczTSDI5v0efal6A=s900-c-k-c0x00ffffff-no-rj",
       "featuredArtists": ["Chris Lake", "Chris Lorenzo", "TOBEHONEST"],
       "accepting": true
     },
@@ -76,7 +76,7 @@
         }
       },
       "location": "New York, NY",
-      "img": "traceamounts.png",
+      "img": "https://d2tccurk3pc1sk.cloudfront.net/images/d08mbtfqv2sh4qvmeufp9.png",
       "featuredArtists": ["Westend"],
       "accepting": true
     },
@@ -96,7 +96,7 @@
         }
       },
       "location": null,
-      "img": "hellbent.png",
+      "img": "https://i1.sndcdn.com/avatars-hwGnoyPZVhM8ksCW-39VPvw-t500x500.jpg",
       "featuredArtists": ["Cloone", "BeMore"],
       "accepting": true
     },
@@ -116,7 +116,7 @@
         }
       },
       "location": null,
-      "img": "solidgrooves.png",
+      "img": "https://d2tccurk3pc1sk.cloudfront.net/images/ckw3h2a1v0021g0xylrkdhvjy.jpg",
       "featuredArtists": ["Michael Bibi", "Dennis Cruz", "PAWSA"],
       "accepting": true
     },
@@ -136,7 +136,7 @@
         }
       },
       "location": null,
-      "img": "repopulatemars.png",
+      "img": "https://static1.squarespace.com/static/5bb685a4ebfc7f59b880b8a3/t/5ca27860002291000147a039/1554151524994/RPM+Logo+JPEG.jpg?format=1500w",
       "featuredArtists": ["Lee Foss", "John Summit", "CID", "Deeper Purpose"],
       "accepting": true
     },
@@ -156,7 +156,7 @@
         }
       },
       "location": "Los Angeles, CA",
-      "img": "techne.png",
+      "img": "https://i1.sndcdn.com/avatars-z10VOUZ2a2Hy4L1t-IU2MgA-t500x500.jpg",
       "featuredArtists": ["Noizu", "Friend Within", "Ben Miller"],
       "accepting": true
     },
@@ -176,7 +176,7 @@
         }
       },
       "location": null,
-      "img": "spinnindeep.png",
+      "img": "https://i1.sndcdn.com/avatars-000146421803-wyr510-t500x500.jpg",
       "featuredArtists": ["Cumbiafrica", "CamelPhat", "Deeper Purpose"],
       "accepting": true
     },
@@ -196,7 +196,7 @@
         }
       },
       "location": "London, UK",
-      "img": "solotoko.png",
+      "img": "https://geo-media.beatport.com/image_size/500x500/aa63e210-bca1-4101-8935-f10388472f63.jpg",
       "featuredArtists": ["Sonny Fodera", "Biscits", "CID", "Westend"],
       "accepting": true
     },
@@ -216,7 +216,7 @@
         }
       },
       "location": "London, UK",
-      "img": "defected.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Defected_Logo.jpg",
       "featuredArtists": ["Bob Sinclar", "John Summit"],
       "accepting": true
     },
@@ -236,7 +236,7 @@
         }
       },
       "location": null,
-      "img": "toolroom.png",
+      "img": "https://pbs.twimg.com/profile_images/1235867051387793413/brYWm1WU_400x400.jpg",
       "featuredArtists": ["Mark Knight", "Retna"],
       "accepting": true
     },
@@ -256,7 +256,7 @@
         }
       },
       "location": null,
-      "img": "thehigherground.png",
+      "img": "https://i1.sndcdn.com/avatars-000680679392-dkhvze-t500x500.jpg",
       "featuredArtists": ["Diplo", "MK", "SIDEPIECE"],
       "accepting": false
     },
@@ -265,12 +265,7 @@
       "name": "DirtyBird Records",
       "url": "https://www.label-worx.com/demo/dirtybird",
       "description": "Founded by Claude VonStroke",
-      "genres": [
-                "tech house",
-        "deep house",
-        "minimal house"
-        
-      ],
+      "genres": ["tech house", "deep house", "minimal house"],
       "submissionMethod": "custom",
       "contactInfo": {
         "email": null,
@@ -281,7 +276,7 @@
         }
       },
       "location": "San Francisco, CA",
-      "img": "dirtybird.png",
+      "img": "https://i1.sndcdn.com/avatars-uqNO2q0yPRasxCwp-7H3Q3g-t500x500.jpg",
       "featuredArtists": ["Claude VonStroke", "FISHER", "Kyle Watson"],
       "accepting": true
     },
@@ -301,7 +296,7 @@
         }
       },
       "location": "Los Angeles, CA",
-      "img": "thrivemusic.png",
+      "img": "https://i1.sndcdn.com/avatars-000338508542-qwb58c-t500x500.jpg",
       "featuredArtists": ["Acraze", "Wuki", "Biscits", "ODD MOB"],
       "accepting": true
     },
@@ -321,7 +316,7 @@
         }
       },
       "location": "London, UK",
-      "img": "glasgowunderground.png",
+      "img": "https://i1.sndcdn.com/avatars-000353806748-v1s3mr-t500x500.jpg",
       "featuredArtists": ["Westend", "Kevin McKay"],
       "accepting": true
     },
@@ -341,7 +336,7 @@
         }
       },
       "location": null,
-      "img": "sinkorswim.png",
+      "img": "https://i1.sndcdn.com/avatars-000703529896-sfpbxb-t500x500.jpg",
       "featuredArtists": ["Guz", "Kyle Watson", "San Pacho", "Thomas Newson"],
       "accepting": true
     },
@@ -361,7 +356,7 @@
         }
       },
       "location": null,
-      "img": "terminalunderground.png",
+      "img": "https://i1.sndcdn.com/avatars-W3oierMElRqk98f0-6MnCIg-t500x500.jpg",
       "featuredArtists": ["Matroda", "San Pacho", "OMNOM"],
       "accepting": true
     },
@@ -381,7 +376,7 @@
         }
       },
       "location": null,
-      "img": "adessomusic.png",
+      "img": "https://yt3.googleusercontent.com/ytc/AOPolaT9SIs88nar4S-T1TZoVfShI1Uu4DHa1_E5a38rfA=s900-c-k-c0x00ffffff-no-rj",
       "featuredArtists": ["CASSIM", "Junior Jack"],
       "accepting": true
     },
@@ -401,7 +396,7 @@
         }
       },
       "location": "England, UK",
-      "img": "xplodedmusic.png",
+      "img": "https://i1.sndcdn.com/avatars-000577795518-qpqyrq-t500x500.jpg",
       "featuredArtists": ["Diplo", "Dom Dolla", "A-Track", "Dillon Francis"],
       "accepting": true
     }
