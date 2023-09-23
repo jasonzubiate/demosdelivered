@@ -1,8 +1,9 @@
 import "@/styles/globals.css";
-import { Navbar, Footer } from "@/components";
-import type { Metadata } from "next";
 import LenisContext from "@/context/LenisContext";
-import { PageLoader, CursorDot } from "@/components";
+
+import { Navbar, Footer, PageLoader, CursorDot } from "@/components";
+import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "Demos Delivered",
@@ -22,6 +23,7 @@ export default function RootLayout({
             <Navbar />
             <CursorDot/>
             {children}
+            <Analytics/>
             <Footer />
           </PageLoader>
         </body>
