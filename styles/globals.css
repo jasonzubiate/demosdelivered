@@ -10,6 +10,12 @@
   font-family: "Rajdhani-Light";
   src: url("/../assets/fonts/Rajdhani/Rajdhani-Light.otf");
 }
+.secondary-font-regular {
+  font-family: var(--FFSECONDARYREG);
+}
+.secondary-font-light {
+  font-family: var(--FFSECONDARYLIGHT);
+}
 
 :root {
   --FFPRIMARY: "Helvetica Neue", "Helvetica";
@@ -118,13 +124,8 @@ footer {
 }
 footer {
   bottom: 0;
-}a
-.secondary-font-regular {
-  font-family: var(--FFSECONDARYREG);
 }
-.secondary-font-light {
-  font-family: var(--FFSECONDARYLIGHT);
-}
+
 #labels {
   min-height: 100vh;
 }
