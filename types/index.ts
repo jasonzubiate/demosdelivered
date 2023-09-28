@@ -23,10 +23,10 @@ export interface SocialMedia {
   youtube: string | null;
 }
 
-export interface LabelsSliderProps {
-  labels: Label[]
+export interface LabelCardListProps {
+  labels: Label[] | [];
 }
 
 export interface LabelCardProps {
-  label: Label
+  label: Label;
 }

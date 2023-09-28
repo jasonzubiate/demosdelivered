@@ -58,7 +58,7 @@ function PageLoader({ children }: { children: React.ReactNode }) {
   });
 
   return (
-    <div className={`${scrollable? "" : "overflow-y-hidden h-screen"}`}>
+    <div className={`${scrollable ? "" : "overflow-y-hidden h-screen"}`}>
       <div className="pre-loader block">
         <div className="loader-wrapper">
           <div className="loader"></div>
