@@ -9,7 +9,7 @@ function PageLoader({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     setTimeout(() => {
       setScrollable(true);
-    }, 3000);
+    }, 4000);
 
     const tl = gsap.timeline();
     tl.from(".loader-wrapper", {

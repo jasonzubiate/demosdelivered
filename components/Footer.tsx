@@ -16,8 +16,8 @@ function Footer() {
   return (
     <footer id="footer">
       <p>©2023</p>
-      <p>34.0549, 118.2426</p>
-      <p>[ US ]</p>
+      <p>34.0549° N, 118.2426° W</p>
+      <a href="https://www.instagram.com/demosdelivered/">Instagram</a>
       <a href="https://www.jasonzubiate.com/" className="nav-link hover-link">
         Creator
       </a>

@@ -11,9 +11,9 @@ import { LabelCard } from "@/components";
 
 function LabelCardList({ labels }: LabelCardListProps) {
   return (
-    <ul className="labels-list flex flex-col gap-3 mt-5 lg:mt-20 lg:gap-4">
+    <ul className="labels-list flex flex-col">
       {labels.map((label) => (
-        <LabelCard key={label.id} label={label} />
+        <LabelCard key={label.id} label={label}/>
       ))}
     </ul>
   );
@@ -30,48 +30,24 @@ export default function Labels() {
 
   useEffect(() => {
     getLabels();
-    // gsap.to("#labels", {
-    //   backgroundColor: "#0F0F0F",
-    //   duration: 1,
-    //   scrollTrigger: {
-    //     trigger: "#labels",
-    //     start: "top 80%",
-    //   },
-    // });
-    // gsap.from(".labels-header", {
-    //   duration: 1,
-    //   yPercent: 100,
-    //   ease: "power2.inOut",
-    //   scrollTrigger: {
-    //     trigger: "#labels",
-    //     start: "top 80%",
-    //   },
-    // });
-    // gsap.from(".label-card", {
-    //   opacity: 0,
-    //   yPercent: 65,
-    //   stagger: 0.5,
-    //   scrollTrigger: {
-    //     trigger: "#labels",
-    //     start: "top center",
-    //     end: "bottom bottom",
-    //     scrub: true,
-    //     once: true,
-    //   },
-    // });
+    gsap.from(".labels-header", {
+      duration: 1,
+      opacity: 0,
+      ease: "power2.inOut",
+      scrollTrigger: {
+        trigger: "#labels",
+        start: "top 95%",
+      },
+    });
   }, []);
 
   return (
-    <section
-      id="labels"
-      className="mb-14 lg:mb-20 px-[1rem] lg:px-[3rem] overflow-hidden"
-    >
-      <div className="overflow-hidden">
-        <h2 className="labels-header text-[20px] font-medium uppercase lg:text-5xl ">
-          20 Active Labels
-        </h2>
-        <LabelCardList labels={labels} />
+    <section id="labels" className="mb-14 lg:mb-20 px-0 overflow-hidden">
+      <div className="labels-header flex items-center gap-2 text-sm px-2 lg:px-6 mb-5 lg:mb-10">
+        <div className="status-dot bg-[#a9f039]"></div>
+        <h2 className="font-[400] uppercase ">Featured Labels</h2>
       </div>
+      <LabelCardList labels={labels} />
     </section>
   );
 }

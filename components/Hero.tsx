@@ -75,7 +75,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="flex items-center justify-between px-4 py-16 lg:px-12 lg:py-[6rem] h-screen uppercase"
+      className="flex items-center justify-between px-2 py-16 lg:px-8 lg:py-[6rem] h-screen uppercase"
     >
       <div className="flex flex-col justify-between h-full">
         <Image
