@@ -1,4 +1,5 @@
 import { gsap } from "gsap";
+import { getRandomCharacter } from "@/utils/TextShuffle";
 
 export function preLoaderAnimation() {
   document.documentElement.style.height = "100%";
@@ -51,6 +52,60 @@ export function preLoaderAnimation() {
     .add(() => {
       document.documentElement.style.height = "";
       document.body.style.height = "";
-
     });
 }
+
+export function heroAnimation() {
+  gsap.from(".frame", {
+    duration: 1,
+    opacity: 0,
+    ease: "power4.inOut",
+    delay: 3,
+  });
+  gsap.from(".sub-header", {
+    duration: 1.5,
+    yPercent: 100,
+    ease: "power4.inOut",
+    delay: 3,
+  });
+  gsap.from(".hero-info", {
+    duration: 1.5,
+    opacity: 0,
+    ease: "power4.inOut",
+    delay: 4,
+  });
+  gsap.from(".h1", {
+    duration: 2,
+    scale: 3,
+    ease: "power4.inOut",
+    delay: 2,
+  });
+
+  const originalText = "Demos Delivered";
+
+  const shuffleText = () => {
+    const shuffledText = Array.from(originalText, getRandomCharacter).join("");
+    const h1Elements = document.querySelectorAll(".h1");
+    h1Elements.forEach((element) => {
+      element.textContent = shuffledText;
+    });
+  };
+
+  setTimeout(() => {
+    clearInterval(shuffleInterval);
+    const h1Elements = document.querySelectorAll(".h1");
+    h1Elements.forEach((element) => {
+      element.textContent = originalText;
+    });
+  }, 4000);
+
+  const shuffleInterval = setInterval(() => {
+    shuffleText();
+  }, 40); 
+
+  return () => {
+    clearInterval(shuffleInterval);
+  };
+}
+
+
