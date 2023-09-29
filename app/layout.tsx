@@ -3,7 +3,7 @@ import LenisContext from "@/context/LenisContext";
 
 import { Navbar, Footer, PageLoader, CursorDot } from "@/components";
 import type { Metadata } from "next";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Demos Delivered",
@@ -19,13 +19,12 @@ export default function RootLayout({
     <LenisContext>
       <html lang="en">
         <body>
-          <PageLoader>
-            <Navbar />
-            <CursorDot/>
-            {children}
-            <Analytics/>
-            <Footer />
-          </PageLoader>
+          <PageLoader />
+          <Navbar />
+          <CursorDot />
+          {children}
+          <Analytics />
+          <Footer />
         </body>
       </html>
     </LenisContext>
