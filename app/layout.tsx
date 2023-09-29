@@ -2,13 +2,10 @@ import "@/styles/globals.css";
 import LenisContext from "@/context/LenisContext";
 
 import { Navbar, Footer, PageLoader, CursorDot } from "@/components";
-import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { constructMetaData } from "@/utils/metadata";
 
-export const metadata: Metadata = {
-  title: "Demos Delivered",
-  description: "Explore all of the hottest edm labels to submit your demo to.",
-};
+export const metadata = constructMetaData()
 
 export default function RootLayout({
   children,

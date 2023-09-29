@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { gsap } from "gsap";
-import Link from "next/link";
 
 function Navbar() {
   useEffect(() => {
