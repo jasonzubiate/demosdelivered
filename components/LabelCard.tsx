@@ -41,7 +41,7 @@ function LabelCard({ label }: LabelCardProps) {
     <li className="label-card" onClick={redirectToLabel}>
       <label
         htmlFor="label_name"
-        className="text-lg lg:text-[48px] uppercase font-semibold tracking-[-1px]"
+        className="text-lg lg:text-[48px] uppercase font-semibold lg:tracking-[-1px]"
       >
         {label.name}
       </label>
