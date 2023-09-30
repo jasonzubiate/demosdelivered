@@ -51,6 +51,7 @@ function LabelCard({ label }: LabelCardProps) {
         <Image
           src={label.img}
           alt={label.id}
+          priority
           quality={100}
           fill
           className="rounded-md"
