@@ -263,6 +263,9 @@ footer {
   .label-img {
     display: none;
   }
+  .label-card:hover .label-img {
+    display: none;
+  }
   .cursor-dot {
     display: none;
   }
