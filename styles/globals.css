@@ -219,13 +219,13 @@ footer {
   object-position: center;
   margin-left: 60%;
   margin-bottom: 8rem;
-  opacity: 0;
+  display: none;
   transition: all 1 cubic-bezier(0.075, 0.82, 0.165, 1);
   cursor: pointer;
 }
 
 .label-card:hover .label-img {
-  opacity: 1;
+  display: block;
 }
 
 .status-dot {
