@@ -3,6 +3,7 @@
 import { LabelCardProps } from "@/types";
 import { useEffect } from "react";
 import gsap from "gsap";
+import Image from "next/image";
 
 function LabelCard({ label }: LabelCardProps) {
   // useEffect(() => {
@@ -45,6 +46,16 @@ function LabelCard({ label }: LabelCardProps) {
       >
         {label.name}
       </label>
+
+      <div className="label-img">
+        <Image
+          src={label.img}
+          alt={label.id}
+          quality={100}
+          fill
+          className="rounded-md"
+        />
+      </div>
 
       <div className="flex flex-col items-end text-[10px] lg:text-[14px] leading-none lg:leading-tight">
         <p className="uppercase ">{label.description}</p>

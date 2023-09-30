@@ -14,6 +14,8 @@ const nextConfig = {
       "upload.wikimedia.org",
       "pbs.twimg.com",
       "scontent-dfw5-1.cdninstagram.com",
+      "i.discogs.com",
+      "f4.bcbits.com"
     ],
   },
   webpack(config) {

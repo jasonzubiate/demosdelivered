@@ -42,7 +42,7 @@ export default function Labels() {
   }, []);
 
   return (
-    <section id="labels" className="mb-14 lg:mb-20 px-0 overflow-hidden">
+    <section id="labels" className="mb-14 lg:mb-20 px-0">
       <div className="labels-header flex items-center gap-2 text-sm px-2 lg:px-6 mb-5 lg:mb-10">
         <div className="status-dot bg-[#a9f039]"></div>
         <h2 className="font-[400] uppercase ">Featured Labels</h2>

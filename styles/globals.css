@@ -196,6 +196,7 @@ footer {
 }
 
 .label-card {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,6 +209,23 @@ footer {
 
 .label-card:hover {
   background-color: var(--LIGHTGREEN);
+}
+
+.label-img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 60%;
+  margin-bottom: 8rem;
+  opacity: 0;
+  transition: all 1 cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.label-card:hover .label-img {
+  opacity: 1;
 }
 
 .status-dot {
@@ -243,8 +261,7 @@ footer {
     height: 6px;
   }
   .label-img {
-    min-width: 80px;
-    height: 80px;
+    display: none;
   }
   .cursor-dot {
     display: none;
