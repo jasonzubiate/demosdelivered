@@ -4,18 +4,11 @@ const nextConfig = {
     serverComponentsExternalPackages: ["mongoose"],
   },
   images: {
-    domains: [
-      "label-engine.com",
-      "d2tccurk3pc1sk.cloudfront.net",
-      "yt3.googleusercontent.com",
-      "i1.sndcdn.com",
-      "static1.squarespace.com",
-      "geo-media.beatport.com",
-      "upload.wikimedia.org",
-      "pbs.twimg.com",
-      "scontent-dfw5-1.cdninstagram.com",
-      "i.discogs.com",
-      "f4.bcbits.com"
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
     ],
   },
   webpack(config) {
