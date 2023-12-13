@@ -215,11 +215,11 @@ footer {
 
 .label-img {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   object-position: center;
-  margin-left: 60%;
+  margin-left: 55%;
   margin-bottom: 7rem;
   display: none;
   transition: all 1 cubic-bezier(0.075, 0.82, 0.165, 1);
